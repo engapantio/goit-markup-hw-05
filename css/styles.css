@@ -548,6 +548,7 @@ img,
 #field-comment {
   height: 120px;
   resize: none;
+  text-indent: 16px;
 }
 
 label[for="field-consent"] {
@@ -605,6 +606,8 @@ label[for="field-consent"] {
 
 .btn.modal-btn {
   margin-top: 0;
+  width: 169px;
+  height: 56px;
 }
 
 .page-ending {
