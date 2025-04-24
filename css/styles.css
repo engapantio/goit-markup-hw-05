@@ -498,7 +498,7 @@ img,
 
 .subscribe-form {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   align-items: baseline;
 }
 
@@ -676,7 +676,7 @@ img,
   line-height: 1.17;
   letter-spacing: 0.04em;
   resize: none;
-  padding-left: 16px;
+  padding: 8px 16px;
 }
 
 .consent-wrapping {
@@ -704,7 +704,7 @@ img,
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#user-privacy:checked .check-ground {
+.visually-hidden:checked + .consent-label > .check-ground {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -716,4 +716,5 @@ img,
 
 .btn.modal-btn {
   margin-top: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
